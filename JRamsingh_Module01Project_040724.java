@@ -9,26 +9,26 @@ public class JRamsingh_Module01Project_040724 {
 	java.util.Scanner scanner = new java.util.Scanner(System.in);
 	
 	// Prompt user for patient details
-	System.out.println("Enter patient details:");
+	System.out.println("Enter YOUR details:");
 	
 	// Input patient name
-	System.out.print("Enter Patient Name: ");
+	System.out.print("Enter YOUR Name: ");
 	String name = scanner.nextLine();
 	
 	// Input patient weight 
-	System.out.print("Enter Patient Weight (in kg): ");
+	System.out.print("Enter YOUR Weight (in kg): ");
 	double weight = scanner.nextDouble();
 	
 	// Consume the newline character after reading the double
 	scanner.nextLine();
 	
 	// Input patient birth date 
-	System.out.print("Enter Patient Birthdate (YYYY-MM-DD): ");
+	System.out.print("Enter YOUR Birthdate (YYYY-MM-DD): ");
 	String birthdateStr = scanner.nextLine();
 	LocalDate birthdate = LocalDate.parse(birthdateStr);
 	
 	// Input patient height 
-	System.out.print("Enter Patient Height (meters) :");
+	System.out.print("Enter YOUR Height (meters) :");
 	double height = scanner.nextDouble();
 	
 	// Calculate BMI
